@@ -1,0 +1,29 @@
+<suite name="Suite">
+ 
+    <test name="Practice Grouping">
+ 
+        <groups>
+        
+        <define name ="All">
+        
+		<include name="Car" />
+		<include name="Scooter"/>
+        <include name="Sedan Car"/>
+        
+        </define>
+        
+        <run>
+        <include name ="All"/>
+	    </run>
+ 
+	</groups>
+ 
+	<classes>
+ 
+	    <class name="com.test.Grouping" />
+ 
+	</classes>
+ 
+    </test>
+ 
+</suite>

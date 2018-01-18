@@ -1,0 +1,16 @@
+<suite name="Parameter_Passing_Test">
+  <test thread-count="5" name="Parameter_Outside">
+  
+  <parameter name="UserName" value="vikasgarg.mgl@gmail.com"/>
+  
+  <parameter name="Password" value="master1"/>
+  
+  <classes>
+  
+  <class name="com.test.Passing_Parameter_TestNG"/>
+  
+  </classes>
+  
+  </test> <!-- Parameter_Outside -->
+  
+</suite> <!-- Parameter_Passing_Test -->

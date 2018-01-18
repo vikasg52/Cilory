@@ -1,0 +1,23 @@
+<suite name="Suite">
+ 
+    <test name="Practice Grouping">
+ 
+        <groups>
+ 
+	    <run>
+ 
+		<include name="Sedan Car" />
+ 
+	    </run>
+ 
+	</groups>
+ 
+	<classes>
+ 
+	    <class name="com.test.Grouping" />
+ 
+	</classes>
+ 
+    </test>
+ 
+</suite>

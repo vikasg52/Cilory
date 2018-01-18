@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Parameter_Passing_Test]">
+  <test name="Parameter_Outside(failed)">
+    <parameter name="UserName" value="vikasgarg.mgl@gmail.com"/>
+    <parameter name="Password" value="master1"/>
+    <classes>
+      <class name="com.test.Passing_Parameter_TestNG">
+        <methods>
+          <include name="testing" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.Passing_Parameter_TestNG -->
+    </classes>
+  </test> <!-- Parameter_Outside(failed) -->
+</suite> <!-- Failed suite [Parameter_Passing_Test] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_DataProvider]">
+  <test name="Test_DataProvider1(failed)">
+    <classes>
+      <class name="datadriven.test.DataProvider_WithExcel">
+        <methods>
+          <include name="startDriver"/>
+          <include name="FailedChecked"/>
+          <include name="showSkipTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- datadriven.test.DataProvider_WithExcel -->
+    </classes>
+  </test> <!-- Test_DataProvider1(failed) -->
+</suite> <!-- Failed suite [Suite_DataProvider] -->
